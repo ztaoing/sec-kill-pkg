@@ -1,8 +1,8 @@
 package discover
 
 import (
+	"github.com/ztaoing/sec-kill-pkg/common"
 	"log"
-	"secondkill/common"
 )
 
 type DiscoveryClient interface {

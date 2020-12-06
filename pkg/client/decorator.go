@@ -12,12 +12,12 @@ import (
 	"github.com/grpc-ecosystem/grpc-opentracing/go/otgrpc"
 	"github.com/opentracing/opentracing-go"
 	zipkinbridge "github.com/openzipkin-contrib/zipkin-go-opentracing"
+	"github.com/ztaoing/sec-kill-pkg/pkg/bootstrap"
+	"github.com/ztaoing/sec-kill-pkg/pkg/config"
+	"github.com/ztaoing/sec-kill-pkg/pkg/discover"
+	"github.com/ztaoing/sec-kill-pkg/pkg/loadbalance"
 	"google.golang.org/grpc"
 	"log"
-	"sec-kill-pkg/pkg/bootstrap"
-	"sec-kill-pkg/pkg/config"
-	"sec-kill-pkg/pkg/discover"
-	"sec-kill-pkg/pkg/loadbalance"
 	"strconv"
 )
 

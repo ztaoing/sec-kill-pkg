@@ -8,9 +8,9 @@ package client
 import (
 	"context"
 	"github.com/opentracing/opentracing-go"
-	"secondkill/pb"
-	"secondkill/pkg/discover"
-	"secondkill/pkg/loadbalance"
+	"github.com/ztaoing/sec-kill-pkg/pb"
+	"github.com/ztaoing/sec-kill-pkg/pkg/discover"
+	"github.com/ztaoing/sec-kill-pkg/pkg/loadbalance"
 )
 
 type UserClient interface {

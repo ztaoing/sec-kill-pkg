@@ -8,11 +8,11 @@ package discover
 import (
 	"errors"
 	uuid "github.com/satori/go.uuid"
+	"github.com/ztaoing/sec-kill-pkg/common"
+	"github.com/ztaoing/sec-kill-pkg/pkg/bootstrap"
+	"github.com/ztaoing/sec-kill-pkg/pkg/loadbalance"
 	"log"
 	"os"
-	"secondkill/common"
-	"secondkill/pkg/bootstrap"
-	"secondkill/pkg/loadbalance"
 )
 
 var ConsulService DiscoveryClient

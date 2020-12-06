@@ -12,10 +12,11 @@ import (
 	"github.com/openzipkin/zipkin-go"
 	zipkinhttp "github.com/openzipkin/zipkin-go/reporter/http"
 	"github.com/spf13/viper"
+	"github.com/ztaoing/sec-kill-pkg/pkg/bootstrap"
+	"github.com/ztaoing/sec-kill-pkg/pkg/discover"
 	"net/http"
 	"os"
-	"secondkill/pkg/bootstrap"
-	"secondkill/pkg/discover"
+
 	"strconv"
 )
 

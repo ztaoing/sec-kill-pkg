@@ -8,9 +8,9 @@ package client
 import (
 	"context"
 	"github.com/opentracing/opentracing-go"
-	"sec-kill-pkg/pb"
-	"sec-kill-pkg/pkg/discover"
-	"sec-kill-pkg/pkg/loadbalance"
+	"github.com/ztaoing/sec-kill-pkg/pb"
+	"github.com/ztaoing/sec-kill-pkg/pkg/discover"
+	"github.com/ztaoing/sec-kill-pkg/pkg/loadbalance"
 )
 
 type OAuthClient interface {

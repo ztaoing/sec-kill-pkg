@@ -7,8 +7,8 @@ package loadbalance
 
 import (
 	"errors"
+	"github.com/ztaoing/sec-kill-pkg/common"
 	"math/rand"
-	"secondkill/common"
 )
 
 type LoadBalance interface {

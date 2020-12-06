@@ -10,8 +10,8 @@ import (
 	"github.com/go-kit/kit/sd/consul"
 	"github.com/hashicorp/consul/api"
 	"github.com/hashicorp/consul/api/watch"
+	"github.com/ztaoing/sec-kill-pkg/common"
 	"log"
-	"secondkill/common"
 	"strconv"
 	"sync"
 )
