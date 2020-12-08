@@ -9,7 +9,7 @@ import (
 	"github.com/coreos/etcd/clientv3"
 	"github.com/go-redis/redis"
 	"github.com/samuel/go-zookeeper/zk"
-	"secondkill/sk-core/service/svc_limit"
+	"github.com/ztaoing/sec-kill-core/sk-core/service/svc_limit"
 	"sync"
 )
 
